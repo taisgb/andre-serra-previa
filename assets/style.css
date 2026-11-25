@@ -23,3 +23,21 @@
 .plan-card__name{display:block;text-align:center;font-size:.83rem;font-weight:700;color:var(--deep)}
 .track.paused,.marquee:hover .track,.marquee:focus-within .track{animation-play-state:paused}
 @media(max-width:580px){.brand-logo{min-width:88px;height:36px;padding:5px 10px}.brand-logo img{max-height:20px}.plan-list{gap:12px}.plan-card{min-width:170px;width:170px;padding:14px}.plan-card__logo{height:54px}.plan-card__logo img{max-height:54px}.plan-card__name{font-size:.76rem}}
+
+
+/* Editorial opening for treatment pages */
+.inner-hero{padding:26px 0 58px;background:linear-gradient(112deg,#f7f8f4 0%,#e4eee8 100%);border-bottom:1px solid var(--line)}
+.inner-hero .crumb{margin-bottom:36px;font-size:.78rem;color:#56716e;line-height:1.6}
+.inner-hero .inner-grid{display:block}
+.inner-hero .inner-copy{max-width:1040px;animation:enter .55s ease-out both}
+.inner-hero .eyebrow{margin-bottom:15px;letter-spacing:.13em}
+.inner-hero .inner-grid h1{font-size:clamp(2.45rem,5.25vw,4.5rem);font-weight:700;letter-spacing:-.055em;line-height:1.1;margin:0 0 12px;text-wrap:balance}
+.inner-hero .inner-grid h2{font-size:clamp(1.18rem,2.2vw,1.65rem);font-weight:500;line-height:1.4;letter-spacing:-.025em;color:var(--teal)}
+.inner-hero .inner-grid p{max-width:740px;font-size:clamp(.98rem,1.2vw,1.08rem);line-height:1.75;margin:18px 0 25px}
+.inner-hero .btn{padding:13px 24px}
+.inner-hero + .section{padding-top:56px}
+.inner-hero + .section .detail-grid{grid-template-columns: minmax(220px,260px) minmax(0,1fr);gap:clamp(32px,5vw,76px)}
+.inner-hero + .section .toc{background:#f8faf8;border-radius:14px}
+.inner-hero + .section .topic h2{letter-spacing:-.035em}
+@media(max-width:850px){.inner-hero{padding:24px 0 44px}.inner-hero .crumb{margin-bottom:28px}.inner-hero + .section .detail-grid{grid-template-columns:1fr;gap:28px}}
+@media(max-width:580px){.inner-hero{padding:20px 0 35px}.inner-hero .crumb{margin-bottom:25px;font-size:.73rem}.inner-hero .inner-grid h1{font-size:clamp(2.25rem,9.5vw,3.1rem);line-height:1.13}.inner-hero .inner-grid p{margin:14px 0 20px}.inner-hero + .section{padding-top:32px}.inner-hero .btn{max-width:100%}}
